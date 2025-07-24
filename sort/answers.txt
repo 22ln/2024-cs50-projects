@@ -1,0 +1,6 @@
+sort1 uses: Bubble Sort
+How do you know?: it ran the fastest on a sorted list.
+sort2 uses: Merge Sort
+How do you know?:  it ran the fastest on a random/reversed list.
+sort3 uses: Selection Sort
+How do you know?: it was the only option left.

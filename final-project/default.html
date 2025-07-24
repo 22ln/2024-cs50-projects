@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Home </title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+
+    <body>
+        <header>
+            <h1> Simple Calculator </h1>
+        </header>
+
+        <main>
+            <section class="Sblog">
+                <h1>
+                    • Enter the First Number in "FN" and the Second Number in "SN" then press on the operation's button you want
+                </h1>
+                <h2>Calculate &#8631; </h2>
+
+                <div class="Sblog-grid">
+                    <div class="Sblog-post">
+                        <p>
+                            <form>
+                                <label> FN </label>
+                                <input type="text" id="fo">
+                                <label> SN </label>
+                                <input type="text" id="so"> <br><br>
+                                <label> Result </label>
+                                <input type="text" id="res">
+                                <br><br>
+                                <input type="button" value=" + " onclick="calc('+')" class="btn">
+                                <input type="button" value=" - " onclick="calc('-')" class="btn">
+                                <input type="button" value=" * " onclick="calc('*')" class="btn">
+                                <input type="button" value=" / " onclick="calc('/')" class="btn">
+                                <input type="button" value=" % " onclick="calc('%')" class="btn">
+                                <input type="reset" class="btn">
+                            </form>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p> Online Simple Calculator</p>
+        </footer>
+        <script src="module.js"></script>
+    </body>
+
+</html>
